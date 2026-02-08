@@ -1,0 +1,32 @@
+<!--structure of web page-->
+<!DOCTYPE html> <!--tells the browser this is a web page-->
+<html lang="en">
+<head> <!--the page's brain-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Exam Planner</title>
+    <!--connects the clothes-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>My Exam Planner</h1>
+    <!--subject input-->
+    <label for="subject">Subject:</label>
+    <input type="text" id="subject" placeholder="Enter subject name">
+
+    <!--Exam date input-->
+    <label for="date">Exam Date:</label>
+    <input type="date" id="date">
+
+    <!--button to add the subject-->
+    <button id="addButton">Add Subject</button>
+
+    <h2> My Exam Timetable</h2>
+   <!--where the time table will be displayed-->
+   <ul id="timetableList"></ul>
+
+   <!--connects the brain-->
+   <script src="script.js"></script>
+ </body>
+</html>
